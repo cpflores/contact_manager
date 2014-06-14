@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Person do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'is valid' do
+  	expect(Person.new).to be_valid
+  end
 end
