@@ -1,13 +1,6 @@
 require 'spec_helper'
 
 describe Person do
-<<<<<<< HEAD
-  it 'is valid' do
-  	expect(Person.new).to be_valid
-  end
-end
-=======
-
 	let(:person) do
   	Person.new(first_name: 'Alice', last_name: 'Smith')
 	end
@@ -28,4 +21,3 @@ end
 	end
 
 end
->>>>>>> 39366df7f76842a1cae5aee711895a1b1bfa40da
