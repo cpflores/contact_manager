@@ -1,3 +1,3 @@
 class PhoneNumber < ActiveRecord::Base
-	validates presence: true
+	validates :number, presence: true
 end
